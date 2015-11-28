@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface Register : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblPhone;
 
 
+- (IBAction)btnLoginPressed:(id)sender;
 @end
 

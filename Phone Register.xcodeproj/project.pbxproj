@@ -18,6 +18,10 @@
 		D1BEE0101C09561F0024743D /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BEE00C1C09561F0024743D /* DigitsKit.framework */; };
 		D1BEE0111C09561F0024743D /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1BEE00D1C09561F0024743D /* DigitsKitResources.bundle */; };
 		D1BEE0121C09561F0024743D /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BEE00E1C09561F0024743D /* TwitterCore.framework */; };
+		D1BEE01F1C097CBA0024743D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BEE0151C097CBA0024743D /* Card.m */; };
+		D1BEE0201C097CBA0024743D /* Conekta.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BEE0171C097CBA0024743D /* Conekta.m */; };
+		D1BEE0211C097CBA0024743D /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BEE01C1C097CBA0024743D /* Connection.m */; };
+		D1BEE0221C097CBA0024743D /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BEE01E1C097CBA0024743D /* Token.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,15 @@
 		D1BEE00C1C09561F0024743D /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
 		D1BEE00D1C09561F0024743D /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
 		D1BEE00E1C09561F0024743D /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		D1BEE0141C097CBA0024743D /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Conekta/Card.h; sourceTree = "<group>"; };
+		D1BEE0151C097CBA0024743D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Conekta/Card.m; sourceTree = "<group>"; };
+		D1BEE0161C097CBA0024743D /* Conekta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conekta.h; path = Conekta/Conekta.h; sourceTree = "<group>"; };
+		D1BEE0171C097CBA0024743D /* Conekta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conekta.m; path = Conekta/Conekta.m; sourceTree = "<group>"; };
+		D1BEE0181C097CBA0024743D /* Conekta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Conekta.xcodeproj; path = Conekta/Conekta.xcodeproj; sourceTree = "<group>"; };
+		D1BEE01B1C097CBA0024743D /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = Conekta/Connection.h; sourceTree = "<group>"; };
+		D1BEE01C1C097CBA0024743D /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = Conekta/Connection.m; sourceTree = "<group>"; };
+		D1BEE01D1C097CBA0024743D /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Token.h; path = Conekta/Token.h; sourceTree = "<group>"; };
+		D1BEE01E1C097CBA0024743D /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Token.m; path = Conekta/Token.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +88,7 @@
 		D1BEDFED1C094E3D0024743D /* Phone Register */ = {
 			isa = PBXGroup;
 			children = (
+				D1BEE0131C097C410024743D /* Conekta */,
 				D1BEE0081C094EA80024743D /* Main */,
 				D1BEE0091C094ECE0024743D /* User */,
 				D1BEDFF71C094E3D0024743D /* Main.storyboard */,
@@ -111,6 +125,29 @@
 				D1BEDFF51C094E3D0024743D /* Register.m */,
 			);
 			name = User;
+			sourceTree = "<group>";
+		};
+		D1BEE0131C097C410024743D /* Conekta */ = {
+			isa = PBXGroup;
+			children = (
+				D1BEE0141C097CBA0024743D /* Card.h */,
+				D1BEE0151C097CBA0024743D /* Card.m */,
+				D1BEE0161C097CBA0024743D /* Conekta.h */,
+				D1BEE0171C097CBA0024743D /* Conekta.m */,
+				D1BEE0181C097CBA0024743D /* Conekta.xcodeproj */,
+				D1BEE01B1C097CBA0024743D /* Connection.h */,
+				D1BEE01C1C097CBA0024743D /* Connection.m */,
+				D1BEE01D1C097CBA0024743D /* Token.h */,
+				D1BEE01E1C097CBA0024743D /* Token.m */,
+			);
+			name = Conekta;
+			sourceTree = "<group>";
+		};
+		D1BEE0191C097CBA0024743D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +196,12 @@
 			mainGroup = D1BEDFE21C094E3D0024743D;
 			productRefGroup = D1BEDFEC1C094E3D0024743D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D1BEE0191C097CBA0024743D /* Products */;
+					ProjectRef = D1BEE0181C097CBA0024743D /* Conekta.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D1BEDFEA1C094E3D0024743D /* Phone Register */,
@@ -201,6 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BEE01F1C097CBA0024743D /* Card.m in Sources */,
+				D1BEE0211C097CBA0024743D /* Connection.m in Sources */,
+				D1BEE0201C097CBA0024743D /* Conekta.m in Sources */,
+				D1BEE0221C097CBA0024743D /* Token.m in Sources */,
 				D1BEDFF61C094E3D0024743D /* Register.m in Sources */,
 				D1BEDFFC1C094E3D0024743D /* Phone_Register.xcdatamodeld in Sources */,
 				D1BEDFF31C094E3D0024743D /* AppDelegate.m in Sources */,
@@ -321,6 +368,9 @@
 				INFOPLIST_FILE = "Phone Register/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)\n$(PROJECT_DIR)/Conekta",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Phone-Register";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +387,9 @@
 				INFOPLIST_FILE = "Phone Register/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)\n$(PROJECT_DIR)/Conekta",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Phone-Register";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
